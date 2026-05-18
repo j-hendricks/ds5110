@@ -1,39 +1,51 @@
-## DS 5110 Big Data Systems: Agenda 01
+## DS 7200 Computing III Distributed Computing: Agenda 01
 
 
 
 ### Admin Items
 
 - Review Syllabus
-- HW solutions will be posted to Resources folder on Collab
+- Review Canvas
 - Communications:
   - Teams for IM
   - Email TA for grading questions
-- Provide your background in Teams 
 - Review repo page: `setup.md`
 
 ---
 
-### Deliverables This Week
+### Upcoming Deliverables
 
-- Quiz: Big Data Intro
-- Lab 1: Python Warmup and Logfile Analytics
+Due Friday, May 29, 2026 at 11:59pm ET:
+- Module 1 Quiz: Foundations of Big Data Systems
 
+
+---
+
+### Activity
+
+As time permits:
+
+- Review [Rivanna OpenOnDemand](https://ood.hpc.virginia.edu/pun/sys/dashboard)
+- Review file structure, notebooks
+- Brief Review NB: Big Data Systems Foundations  
+- Brief Review NB: Spark Getting Started  
+- Brief Review: Lab
 
 ---
 
 ### Rivanna JupyterLab request page
 
+Request PySpark server
+
 | Key       | Value |
 | ----------- | :-----------: |
-| Rivanna Partition | Dev, Standard or Instructional* |
+| Rivanna Partition | Interactive, Standard |
 | Work Directory | HOME |
-| Allocation| ds5559 |
+| Allocation| ds7200-apt4c |
 | Show Additional Options| No |
 
 Notes:    
-* Instructional partition is less crowded as it's dedicated for this class  
-Dev partition is free for  < 1 hour  
+Interactive partition is free for  < 1 hour  
 Start with small number of cores and increase as needed  
 Number of hours: when time is up, compute will end. JupyterLab notebooks save contents regularly. Request what you need.
 
@@ -42,19 +54,18 @@ Number of hours: when time is up, compute will end. JupyterLab notebooks save co
 
 Rivanna used for most compute
 
-Shared space: `/project/ds5559/` for project data  
-You'll need to: 
+**STORAGE**  
+Shared space: `/standard/ds7200-apt4c` for project data  
+You can use this space to organize files for your project: 
 1. create folder
-2. change permissions to allow teammate access with `chmod` command [details here](https://linuxhandbook.com/chmod-command/)
-3. remove the folder when the course ends
+2. save relevant files
+3. remove the folder and contents when the course ends
 
-| Activity   |
-| :----------- |
-| Fork the course repo and clone to Rivanna |
-| Introduce JupyterLab, terminal |
-| Review file structure, notebooks |
-| Brief Review NB: Big Data Systems Foundations |
-| Brief Review NB: Spark Getting Started |
-| Brief Review NB: Programming Assignment |
+**COMPUTE SETUP**  
+You will use the Jupyter kernel called `PySpark 4.0.0`. 
 
----
+To use this, you'll need to run the following command from a terminal:
+
+`/standard/ds7200-apt4c/setup.sh`
+
+If you run this in a JupyterLab terminal, you will need to refresh the browser tab. Otherwise, the next time you open JupyterLab, the kernel will be available. 
