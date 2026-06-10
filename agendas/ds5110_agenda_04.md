@@ -16,7 +16,8 @@ Due by Friday, June 19 at 11:59pm ET:
 
 
 - Slides: Distributed storage
-- Slides: Schema evolution
+- Slides: Consistent hashing
+- [time permitting] Slides: Schema evolution
 - Review Amazon S3 lab
 
 --- 
